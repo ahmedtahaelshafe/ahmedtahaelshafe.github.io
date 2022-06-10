@@ -64,4 +64,3 @@ function p(x, y) {
    return i(i(n(nx, ny), n(nx + 1, ny), x - nx), i(n(nx, ny + 1), n(nx + 1, ny + 1), x - nx), y - ny);
 }
 draw();
-
