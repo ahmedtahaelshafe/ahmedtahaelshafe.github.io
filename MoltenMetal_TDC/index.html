@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Molten Metal</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<canvas id ='canv'></canvas>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
-</html>
+<div style="position: relative;">
+  <canvas id ='canv'></canvas>
+  <img src="https://cdn.shopify.com/s/files/1/0618/0857/4711/files/TDC_Overlay.png?v=1654903201" 
+       style="position: absolute; 
+              left: 0px; 
+              bottom:0px;
+              padding:0px;
+              z-index: 1;
+              width: 100%;
+              height: 100vh;
+              mix-blend-mode: color;
+       " />
+  <img src="https://cdn.shopify.com/s/files/1/0618/0857/4711/files/TDC_Logo.svg" 
+       style="position: absolute; 
+              left: 0px; 
+              bottom:0px;
+              padding:44px;
+              z-index: 2;
+              width: 150px;
+              filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4));
+       " />
+</div>
