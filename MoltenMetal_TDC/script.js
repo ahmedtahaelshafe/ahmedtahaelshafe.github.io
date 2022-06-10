@@ -1,7 +1,7 @@
 var c = document.getElementById('canv');
 var $ = c.getContext('2d');
 document.body.clientWidth;
-var wh = 128;
+var wh = 256;
 var w2h = wh * wh;
 c.width = c.height =  wh;
 var img = $.createImageData(wh, wh);
@@ -64,3 +64,4 @@ function p(x, y) {
    return i(i(n(nx, ny), n(nx + 1, ny), x - nx), i(n(nx, ny + 1), n(nx + 1, ny + 1), x - nx), y - ny);
 }
 draw();
+
