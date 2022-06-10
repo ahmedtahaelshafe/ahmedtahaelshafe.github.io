@@ -1,7 +1,7 @@
 var c = document.getElementById('canv');
 var $ = c.getContext('2d');
 document.body.clientWidth;
-var wh = 256;
+var wh = 128;
 var w2h = wh * wh;
 c.width = c.height =  wh;
 var img = $.createImageData(wh, wh);
